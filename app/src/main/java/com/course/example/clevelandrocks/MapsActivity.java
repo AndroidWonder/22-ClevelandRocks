@@ -126,6 +126,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 }
         );
 
+        //enable a zoom control
+        mMap.getUiSettings().setZoomControlsEnabled(true);
+
     }
 
 
