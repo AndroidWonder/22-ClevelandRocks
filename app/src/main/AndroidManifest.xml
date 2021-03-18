@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.course.example.clevelandrocks">
-    
+
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
@@ -21,7 +21,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDt5NLfSkLTcDAveRPcMbYxewgUtvbFUiU" />
+            android:value="AIzaSyBtHNGUOSgjostmnPFlMwbFYfCuR8VZR4w" />
 
         <activity
             android:name=".MapsActivity"
