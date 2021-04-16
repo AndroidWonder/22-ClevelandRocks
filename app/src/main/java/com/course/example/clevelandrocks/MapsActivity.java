@@ -47,7 +47,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
 
         //center map and set zoom level
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(41.498370, -81.693883), zoom));
